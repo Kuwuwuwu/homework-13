@@ -7,7 +7,6 @@
 }
 
 .circle, .square, .ellipse, .rectangle {
-  stroke-width: 3;
   fill: currentColor;
   width: 150px;
   height: 150px;
@@ -15,6 +14,7 @@
 }
 
 .circle {
+  stroke-width: 3px;
   stroke: black;
   fill: rgb(243, 23, 23);
 }
@@ -25,6 +25,7 @@
 }
 
 .square {
+  stroke-width: 7px;
   stroke: yellow;
   fill: rgb(29, 199, 29);
   transform-origin: center;
@@ -46,6 +47,7 @@
 }
 
 .ellipse {
+  stroke-width: 2px;
   stroke: greenyellow;
   fill: rgb(36, 36, 229);
 }
@@ -56,6 +58,7 @@
 }
 
 .rectangle {
+  stroke-width: 5px;
   stroke: lightskyblue;
   fill: rgb(239, 239, 52);
 }
