@@ -1,9 +1,10 @@
 .container {
+  background-color: rgb(244, 245, 220);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  gap: 20px; /* Добавлено расстояние между фигурами */
+  gap: 20px; 
 }
 
 .circle, .square, .ellipse, .rectangle {
